@@ -26,7 +26,7 @@ EventFilter
    ]
  }
  
-在``EventFilter``填写需要应用告警过滤的规则，以减少事件产生量，例：
+在 ``EventFilter`` 填写需要应用告警过滤的规则，以减少事件产生量，例：
 
 .. code:: json
 
@@ -55,5 +55,3 @@ EventFilter选项编写规则
 #. ``track`` 是可选参数，可选值为 ``[by_src | by_dst]``
 #. ``apply_ip`` 是可选参数，其填写规则与 :ref:`ip_dm` 一致
 #. ``track`` 和 ``apply_ip`` 必须一起使用，否则都不要使用
-
-END

@@ -12,8 +12,8 @@
 
 .. code::
 
- ``alert http any any -> any any (msg:"Generate an alert"; sid:1;)``
+ alert http any any -> any any (msg:"Generate an alert"; sid:1;)
 
 .. code::
 
- ``pass http any any -> any any (msg:"Pass this packet"; sid:2;)``
+ pass http any any -> any any (msg:"Pass this packet"; sid:2;)

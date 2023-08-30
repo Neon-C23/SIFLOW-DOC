@@ -14,8 +14,8 @@
 
 .. code::
 
- ``alert udp $EXTERNAL_NET any -> $HOME_NET 53 (``
+ alert udp $EXTERNAL_NET any -> $HOME_NET 53 (
  
 .. code::
  
- ``alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (``
+ alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (

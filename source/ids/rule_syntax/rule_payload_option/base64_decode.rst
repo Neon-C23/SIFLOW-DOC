@@ -40,7 +40,7 @@ base64_data
 
 ``base64_data`` 选项将检测光标设置为base64解码的开头，作用与 ``pkt_data`` 、 ``raw_data`` 类似，前提是 ``base64_decode`` 实际上能够解码数据。
 
-此选项不需要任何参数，但要求在其之前指定``base64_decode``。
+此选项不需要任何参数，但要求在其之前指定 ``base64_decode`` 。
 
 **格式:**
 

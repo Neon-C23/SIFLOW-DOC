@@ -15,8 +15,8 @@
 
 .. code::
 
- ``alert tcp $EXTERNAL_NET 80 -> $HOME_NET any (``
+ alert tcp $EXTERNAL_NET 80 -> $HOME_NET any (
  
 .. code::
  
- ``alert tcp $EXTERNAL_NET 80 <> $HOME_NET any (``
+ alert tcp $EXTERNAL_NET 80 <> $HOME_NET any (
