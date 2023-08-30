@@ -35,7 +35,7 @@ EventFilter
      {"sid": 1001, "type": "limit", "count": 10, "seconds": 60},
      {"sid": 1002, "type": "threshold", "count": 10, "seconds": 60},
      {"sid": 1003, "type": "both", "count": 10, "seconds": 60},
-	 {"sid": 1004, "type": "limit", "count": 10, "seconds": 60, "track": "by_src", "apply_ip": "$EXTRA_NET"}
+     {"sid": 1004, "type": "limit", "count": 10, "seconds": 60, "track": "by_src", "apply_ip": "$EXTRA_NET"}
    ]
  }
  
@@ -43,7 +43,7 @@ EventFilter
 | 第一条配置表示在60秒内1001号规则至多能产生10个告警
 | 第二条配置表示在60秒内每匹配成功1002号规则10次则产生一次告警
 | 第三条配置表示在60秒内匹配成功1003号规则10次时则产生一次告警，然后之后不再产生告警
-| 第四条配置与第一条配置类似，只不过他被限定于只对与``$EXTRA_NET``匹配的源ip生效
+| 第四条配置与第一条配置类似，只不过他被限定于只对与 ``$EXTRA_NET`` 匹配的源ip生效
 
 EventFilter选项编写规则
 -----------------------
