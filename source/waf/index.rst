@@ -7,6 +7,10 @@ WAF（Web应用防火墙）是一种专门为Web应用程序提供保护的防�
 
 需要注意的是，因为SIFLOW是旁路监听抓取流量来进行分析的，因此SI-WAF无法对HTTP/HTTPS流量访问进行阻断以及改写等操作，仅能在匹配规则检测到攻击后做出告警。
 
+.. caution::
+
+ 启用waf需要使用 ``--waf_enable`` 命令行标志，如果额外需要保存waf日志到本地则使用 ``--waf_log2local`` 标志。
+
 .. toctree::
    :maxdepth: 2
    
