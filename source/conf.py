@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'SIFLOW'
-copyright = 'Copyright (c)  2013-present, Nanjing Secisland Network Technology Co.Ltd'
+copyright = '2013-present, Nanjing Secisland Network Technology Co.Ltd'
 author = 'Nanjing Secisland Network Technology'
 release = '1.0.0'
 
