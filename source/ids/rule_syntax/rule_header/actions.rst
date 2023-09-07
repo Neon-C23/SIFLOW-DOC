@@ -5,6 +5,7 @@
 
 * alert-> 对当前数据包生成警报
 * pass->将当前数据包标记为已通过
+* ati->应用程序流量识别规则标识
 
 给定规则的所需操作是在规则中声明的第一件事。
 
@@ -17,3 +18,7 @@
 .. code::
 
  pass http any any -> any any (msg:"Pass this packet"; sid:2;)
+
+.. code::
+
+ ati tcp any any -> any 22 (sid:1001; msg:"SSH FLOW";)
