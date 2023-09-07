@@ -19,3 +19,5 @@
    rule_non_payload_option/icmp_code
    rule_non_payload_option/icmp_id
    rule_non_payload_option/icmp_seq
+   rule_non_payload_option/hostname
+   rule_non_payload_option/request_url
