@@ -44,5 +44,6 @@ SIFLOW支持解析的协议
 * MYSQL
 * ORACLE
 * SQL_SERVER
-* RDJC
+* POSTGRESQL
+* 人大金仓（稳定版暂不支持）
 * 达梦（稳定版暂不支持）
