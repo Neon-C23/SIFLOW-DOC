@@ -1,1 +1,39 @@
+SIFLOW支持解析的协议
+===================
 
+* ARP
+* DHCP
+* DNS
+* DRDA
+* ETHERNET
+* FTP
+* GRE
+* HTTP
+* HTTPS
+* ICMP
+* IMAP
+* IPV4
+* IPV6
+* L2TP
+* LDAP
+* LLMNR
+* MPLS
+* NTP
+* POP3
+* PPP
+* PPPOE
+* RADIUS
+* RARP
+* REDIS
+* SMB2
+* SMTP
+* SNMP
+* SOCKS5
+* SSH
+* SSL
+* SYSLOG
+* TCP
+* TELNET
+* UDP
+* VLAN
+* VXLAN
