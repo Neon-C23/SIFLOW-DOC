@@ -13,6 +13,7 @@
    installation/index
    commandline/index
    basic/index
+   support_protocols/index
 
 .. toctree::
    :maxdepth: 2
