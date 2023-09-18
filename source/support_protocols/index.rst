@@ -15,10 +15,10 @@ SIFLOW支持解析的协议
 * IPV4
 * IPV6
 * L2TP
-* LDAP
+* LDAP（稳定版暂不支持）
 * LLMNR
-* MPLS
-* NTP
+* MPLS（稳定版暂不支持）
+* NTP（稳定版暂不支持）
 * POP3
 * PPP
 * PPPOE
@@ -45,4 +45,4 @@ SIFLOW支持解析的协议
 * ORACLE
 * SQL_SERVER
 * RDJC
-* 达梦
+* 达梦（稳定版暂不支持）
