@@ -19,6 +19,7 @@ SIFLOW支持解析的协议
 * LLMNR
 * MPLS（稳定版暂不支持）
 * NTP（稳定版暂不支持）
+* NETBIOS（稳定版暂不支持）
 * POP3
 * PPP
 * PPPOE
