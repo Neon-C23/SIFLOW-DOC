@@ -26,7 +26,7 @@ Reputation
    ]
  }
  
-在 ``RulePath`` 填写规则文件地址或存放规则文件的目录，例：
+在 ``Reputation`` 填写黑白名单ip地址列表，例：
 
 .. code:: json
 
