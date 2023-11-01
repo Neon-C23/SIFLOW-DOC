@@ -34,7 +34,7 @@ Reputation
    "Reputation":{
      "blacklist":[
 	   "192.168.2.1/24,47.102.101.16",
-	   "!HOME_NET"
+	   "!$HOME_NET"
 	 ],
 	 "whitelist":[
 	   "47.102.101.16"
