@@ -34,7 +34,7 @@ Variable
    "Variable":{
      "ip":{
 	     "HOME_NET": "192.168.2.1/24,47.102.101.16",
-	     "EXTRA_NET": "!HOME_NET"
+	     "EXTRA_NET": "!$HOME_NET"
 	   },
 	   "port":{
 	     "HTTP_PORT": "80,8080,8888",
