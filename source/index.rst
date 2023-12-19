@@ -10,7 +10,6 @@
    :caption: 基本
 
    introduction
-   installation/index
    commandline/index
    basic/index
    support_protocols/index
